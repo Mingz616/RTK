@@ -1,5 +1,5 @@
 import os
-import sys
+# import sys
 import datetime
 import argparse
 
@@ -34,6 +34,12 @@ def sort_RTK_file(RTK_file):
 
     i = 0
     j = 0
+
+    if os.path.exists(float_path) and os.path.getsize(float_path) > 0:
+        os.remove(float_path)
+    if os.path.exists(fixed_path) and os.path.getsize(fixed_path) > 0:
+        os.remove(fixed_path)
+
     with open(RTK_file, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
@@ -42,14 +48,14 @@ def sort_RTK_file(RTK_file):
             float_count += 1
             time = (line[-16:-2])
             float_time += str_to_seconds(time)
-            with open('float.txt', 'a', encoding='utf-8') as file_a:
+            with open(float_path, 'a', encoding='utf-8') as file_a:
                 i += 1
                 file_a.write(str(i) +'\t' + str(str_to_seconds(time)) + '\n')
         elif keyword_2 in line:
             fixed_count += 1
             time = (line[-16:-2])
             fixed_time += str_to_seconds(time)
-            with open('fixed.txt', 'a', encoding='utf-8') as file_b:
+            with open(fixed_path, 'a', encoding='utf-8') as file_b:
                 j += 1
                 file_b.write(str(i) +'\t' + str(str_to_seconds(time)) + '\n')
 
@@ -100,19 +106,17 @@ if __name__ == '__main__':
 
     file_path = os.path.join(args.path, args.file)
     # print(file_path)
+    float_path = os.path.join(args.path, 'gen_float_stat.txt')
+    fixed_path = os.path.join(args.path, 'gen_fixed_stat.txt')
 
     if(check_file_path(file_path)):
         RTK_file = file_path
         # print(RTK_file)
-    
-    # Fixed file name
-    float_file = 'float.txt'
-    fixed_file = 'fixed.txt'
 
     float_count, fixed_count = sort_RTK_file(RTK_file)
 
     print("Float Stastistic: ")
-    calcAvg(float_file, float_count)
+    calcAvg(float_path, float_count)
 
     print("Fixed Stastistic: ")
-    calcAvg(fixed_file, float_count)
+    calcAvg(fixed_path, float_count)

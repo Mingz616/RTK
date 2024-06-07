@@ -1,10 +1,17 @@
+import os
+import sys
 import datetime
-import time
+import argparse
 
-rtk = 'TEST_RTK.txt'            # Revise the name
-# Fixed file name
-float_file = 'float.txt'
-fixed_file = 'fixed.txt'
+def get_version():
+    return '2.0'
+
+def check_file_path(filepath):
+    if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
+        # print('Good')
+        return 1
+    else:
+        raise RuntimeError('File is not exist or empty')
 
 # Conver string to seconds
 def str_to_seconds(time_str):
@@ -79,12 +86,33 @@ def calcAvg(file_name, count_time):
             "Max: ",        format(max, '.2f'), "s\t", 
             "Average: ",    format(avg, '.2f'), "s")
 
-# Main
+if __name__ == '__main__':
 
-float_count, fixed_count = sort_RTK_file(rtk)
+    parser = argparse.ArgumentParser(description="RTK Performance Analysis and Stastical Tool")
+    parser.add_argument('--path', type=str, help='address of the RTK file', default=os.path.abspath(""))
+    parser.add_argument('--file', type=str, help='RTK file name', default='TEST_RTK.txt')
+    parser.add_argument('-v', '--version', action='version', version=get_version(), help="Display Version")
 
-print("Float Stastistic: ")
-calcAvg(float_file, float_count)
+    args = parser.parse_args()
 
-print("Fixed Stastistic: ")
-calcAvg(fixed_file, float_count)
+    # path_and_file = sys.argv[0]
+    # original_path = os.path.abspath("")
+
+    file_path = os.path.join(args.path, args.file)
+    # print(file_path)
+
+    if(check_file_path(file_path)):
+        RTK_file = file_path
+        # print(RTK_file)
+    
+    # Fixed file name
+    float_file = 'float.txt'
+    fixed_file = 'fixed.txt'
+
+    float_count, fixed_count = sort_RTK_file(RTK_file)
+
+    print("Float Stastistic: ")
+    calcAvg(float_file, float_count)
+
+    print("Fixed Stastistic: ")
+    calcAvg(fixed_file, float_count)

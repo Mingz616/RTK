@@ -4,7 +4,7 @@ import datetime
 import argparse
 
 def get_version():
-    return '2.0'
+    return '4.0'
 
 def check_file_path(filepath):
     if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
@@ -59,6 +59,11 @@ def sort_RTK_file(RTK_file):
                 j += 1
                 file_b.write(str(i) +'\t' + str(str_to_seconds(time)) + '\n')
 
+    if os.path.exists(log_path) and os.path.getsize(log_path) > 0:
+        os.remove(log_path)
+    with open(log_path, 'w', encoding='utf-8') as file:
+        print('\n')
+
     # print("Float Time: ", float_count)
     # print("Float: ", format(float_time, '.2f'), "s")
     print("Float Average: ", format(float_time/float_count, '.2f'), "s")
@@ -69,10 +74,17 @@ def sort_RTK_file(RTK_file):
     return float_count, fixed_count
 
 # Calculate average time: removed the largest and 
-def calcAvg(file_name, count_time):
+def calcAvg(type, count_time):
     min = 100
     max = -1
     sum = 0
+
+    if(type == 'Float'):
+        file_name = float_path
+    elif(type == "Fixed"):
+        file_name = fixed_path
+    else:
+        assert("Type \"Float\" Or \"Fixed\"")
 
     with open(file_name, 'r', encoding='utf-8') as file:
         lines = file.readlines()
@@ -87,7 +99,17 @@ def calcAvg(file_name, count_time):
             max = float(line[1])
 
     avg = (sum-min-max)/(count_time-2)
-    print("Converged: ",    count_time, "times\t",
+
+    with open(log_path, 'a', encoding='utf-8') as file:
+        file.write(type             +   " Statistcs: \t"    +   file_name   +   "\n")
+        file.write('\tConverged: \t'  +   str(count_time)     +   "times\n")
+        file.write("\tMin: "          +   format(min, '.2f')  +   "s\n")
+        file.write("\tMax: "          +   format(max, '.2f')  +   "s\n")
+        file.write("\tAverage: "      +   format(avg, '.2f')  +   "s\n")
+        file.write("\n")
+
+    print(type, " Statistcs: \t", file_name, "\n",
+        "Converged: ",    count_time, "times\t",
             "Min: ",        format(min, '.2f'), "s\t",
             "Max: ",        format(max, '.2f'), "s\t", 
             "Average: ",    format(avg, '.2f'), "s")
@@ -97,6 +119,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="RTK Performance Analysis and Stastical Tool")
     parser.add_argument('--path', type=str, help='address of the RTK file', default=os.path.abspath(""))
     parser.add_argument('--file', type=str, help='RTK file name', default='TEST_RTK.txt')
+    parser.add_argument('--log', type=str, help='Final statistic file name', default='log.txt')
     parser.add_argument('-v', '--version', action='version', version=get_version(), help="Display Version")
 
     args = parser.parse_args()
@@ -108,6 +131,7 @@ if __name__ == '__main__':
     # print(file_path)
     float_path = os.path.join(args.path, 'gen_float_stat.txt')
     fixed_path = os.path.join(args.path, 'gen_fixed_stat.txt')
+    log_path = os.path.join(args.path, args.log)
 
     if(check_file_path(file_path)):
         RTK_file = file_path
@@ -116,7 +140,7 @@ if __name__ == '__main__':
     float_count, fixed_count = sort_RTK_file(RTK_file)
 
     print("Float Stastistic: ")
-    calcAvg(float_path, float_count)
+    calcAvg('Float', float_count)
 
     print("Fixed Stastistic: ")
-    calcAvg(fixed_path, float_count)
+    calcAvg('Fixed', float_count)

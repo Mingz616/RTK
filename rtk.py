@@ -4,9 +4,15 @@ import datetime
 import argparse
 
 def get_version():
-    return '4.0'
+    """Version Display"""
+    return '5.0'
 
 def check_file_path(filepath):
+    """
+    Description: Check the file is existed or not
+    Parameter:   File path and name
+    Return:    
+    """
     if os.path.exists(file_path) and os.path.getsize(file_path) > 0:
         # print('Good')
         return 1
@@ -15,6 +21,11 @@ def check_file_path(filepath):
 
 # Conver string to seconds
 def str_to_seconds(time_str):
+    """
+    Description:Convert time string to double second
+    Parameter:  str(time)
+    Return:     double(time) in seconds  
+    """
     try:
         dt = datetime.datetime.strptime(time_str, "%H:%M:%S.%f")
         second = (dt-datetime.datetime(1900,1,1)).total_seconds()
@@ -22,9 +33,29 @@ def str_to_seconds(time_str):
         return second
     except ValueError:
         return None
+    
+def calc_period(start_time_str, end_time_str):
+    """
+    Description:Convert time string to double hours
+    Parameter:  str(start_time), str(end_time)
+    Return:     period in hours  
+    """
+    try:
+        start_time = datetime.datetime.strptime(start_time_str, "%H:%M:%S %p, %b %d")
+        end_time = datetime.datetime.strptime(end_time_str, "%H:%M:%S %p, %b %d")
+        return end_time - start_time
+    except ValueError:
+        return None
 
 # Sort out the original file and separate two files to store
 def sort_RTK_file(RTK_file):
+    """
+    Description:    Initialization, check all the valid RTK result
+                    Save the Float and Fixed time into separate files
+                    And Save the RTK period into log file
+    Parameter:      File path and File name
+    Return:         int(Count RTK times) in Float and Fixed
+    """
     keyword_1 = 'Time to RTK Float'
     keyword_2 = 'Time to RTK Fixed'
     float_time = 0
@@ -35,35 +66,56 @@ def sort_RTK_file(RTK_file):
     i = 0
     j = 0
 
+    # Delete the file if it's existed to ensure refresh the result
     if os.path.exists(float_path) and os.path.getsize(float_path) > 0:
         os.remove(float_path)
     if os.path.exists(fixed_path) and os.path.getsize(fixed_path) > 0:
         os.remove(fixed_path)
 
+    # Read the RTK file's data
     with open(RTK_file, 'r', encoding='utf-8') as file:
         lines = file.readlines()
 
+    # Read the start time from the first line
+    first_line = lines[0]
+    first_line = first_line.split('\t')
+    first_time = first_line[0]
+    # Read the end time from the end line
+    last_line = lines[-1]
+    last_line = last_line.split('\t')
+    last_time = last_line[0]
+
+    # Calculate the RTK test period
+    diff = calc_period(first_time, last_time)
+    print("RTK Period:\t", diff)
+
     for line in lines:
-        if keyword_1 in line:
+        if keyword_1 in line:           # Float statistic
             float_count += 1
-            time = (line[-16:-2])
-            float_time += str_to_seconds(time)
+            line = line.split(' ')      # Splite the string to list
+            time = (line[-1])           # Time is the last one in the list
+            float_time += str_to_seconds(time[:-2]) # -2 is to short 1-bit of the milliseconds
+            # Save the float time to the file
             with open(float_path, 'a', encoding='utf-8') as file_a:
                 i += 1
-                file_a.write(str(i) +'\t' + str(str_to_seconds(time)) + '\n')
+                file_a.write(str(i) +'\t' + str(str_to_seconds(time[:-2])) + '\n')
         elif keyword_2 in line:
             fixed_count += 1
-            time = (line[-16:-2])
-            fixed_time += str_to_seconds(time)
+            line = line.split(' ')
+            time = (line[-1])
+            fixed_time += str_to_seconds(time[:-2])
+            # Save the fixed time to the file
             with open(fixed_path, 'a', encoding='utf-8') as file_b:
                 j += 1
-                file_b.write(str(i) +'\t' + str(str_to_seconds(time)) + '\n')
+                file_b.write(str(i) +'\t' + str(str_to_seconds(time[:-2])) + '\n')
 
+    # Check existance of the log file to ensure refresh the statitical result
     if os.path.exists(log_path) and os.path.getsize(log_path) > 0:
         os.remove(log_path)
-    with open(log_path, 'w', encoding='utf-8') as file:
-        print('\n')
+    with open(log_path, 'w', encoding='utf-8') as file:         # Add RTK test period into the file
+        file.write("RTK Period: \t\t" + str(diff) + " hours\n")
 
+    print("RTK Rough Average \n")       # This average doesn't rull out the maximum and minimum value
     # print("Float Time: ", float_count)
     # print("Float: ", format(float_time, '.2f'), "s")
     print("Float Average: ", format(float_time/float_count, '.2f'), "s")
@@ -75,6 +127,12 @@ def sort_RTK_file(RTK_file):
 
 # Calculate average time: removed the largest and 
 def calcAvg(type, count_time):
+    """
+    Description:    Analyze the RTK performance by calculating the average RTK time
+                    Save the Float and Fixed average time into log file
+    Parameter:      str(Float or Fixed), int(Count RTK times) in Float and Fixed
+    Return:         
+    """
     min = 100
     max = -1
     sum = 0
@@ -91,7 +149,6 @@ def calcAvg(type, count_time):
 
     for line in lines:
         line = line.split('\t')
-        # print(line[1])
         sum += float(line[1])
         if(min > float(line[1])):
             min = float(line[1])
@@ -101,11 +158,11 @@ def calcAvg(type, count_time):
     avg = (sum-min-max)/(count_time-2)
 
     with open(log_path, 'a', encoding='utf-8') as file:
-        file.write(type             +   " Statistcs: \t"    +   file_name   +   "\n")
+        file.write(type               +   " Statistcs: \t"    +   file_name   +   "\n")
         file.write('\tConverged: \t'  +   str(count_time)     +   "times\n")
-        file.write("\tMin: "          +   format(min, '.2f')  +   "s\n")
-        file.write("\tMax: "          +   format(max, '.2f')  +   "s\n")
-        file.write("\tAverage: "      +   format(avg, '.2f')  +   "s\n")
+        file.write("\tMin: \t\t"      +   format(min, '.2f')  +   "s\n")
+        file.write("\tMax: \t\t"      +   format(max, '.2f')  +   "s\n")
+        file.write("\tAverage: \t"    +   format(avg, '.2f')  +   "s\n")
         file.write("\n")
 
     print(type, " Statistcs: \t", file_name, "\n",
@@ -139,8 +196,6 @@ if __name__ == '__main__':
 
     float_count, fixed_count = sort_RTK_file(RTK_file)
 
-    print("Float Stastistic: ")
     calcAvg('Float', float_count)
 
-    print("Fixed Stastistic: ")
     calcAvg('Fixed', float_count)

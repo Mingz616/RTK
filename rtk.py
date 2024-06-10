@@ -5,7 +5,7 @@ import argparse
 
 def get_version():
     """Version Display"""
-    return '5.0'
+    return '5.1'
 
 def check_file_path(filepath):
     """
@@ -42,7 +42,9 @@ def calc_period(start_time_str, end_time_str):
     """
     try:
         start_time = datetime.datetime.strptime(start_time_str, "%H:%M:%S %p, %b %d")
+        start_time = start_time - datetime.datetime(1900,1,1)
         end_time = datetime.datetime.strptime(end_time_str, "%H:%M:%S %p, %b %d")
+        end_time = end_time - datetime.datetime(1900,1,1)
         return end_time - start_time
     except ValueError:
         return None

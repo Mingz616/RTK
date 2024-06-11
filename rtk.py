@@ -1,18 +1,19 @@
 """
     > File Name:     RTK Performance Analysis Tool
-    > Version:       V5.1
+    > Version:       V6.0
     > Author:        Ming
     > Mail:          
     > Created Time:  June 6th, 2024
 """
 
 import os
+import time
 import datetime
 import argparse
 
 def get_version():
     """Version Display"""
-    return '5.1'
+    return '6.0'
 
 def check_file_path(filepath):
     """
@@ -41,6 +42,16 @@ def str_to_seconds(time_str):
     except ValueError:
         return None
     
+def conv_12to24(time_str):
+    pd = time_str.split(' ')
+    hr = int(pd[0][0])
+    min = int(pd[0][2:4])
+    sec = int(pd[0][5:7])
+    if(pd[1] == "PM,"):
+        return hr+12, min, sec
+    else:
+        return hr, min, sec
+
 def calc_period(start_time_str, end_time_str):
     """
     Description:Convert time string to double hours
@@ -48,11 +59,25 @@ def calc_period(start_time_str, end_time_str):
     Return:     period in hours  
     """
     try:
-        start_time = datetime.datetime.strptime(start_time_str, "%H:%M:%S %p, %b %d")
-        start_time = start_time - datetime.datetime(1900,1,1)
-        end_time = datetime.datetime.strptime(end_time_str, "%H:%M:%S %p, %b %d")
-        end_time = end_time - datetime.datetime(1900,1,1)
-        return end_time - start_time
+        # start_time = datetime.datetime.strptime(start_time_str, "%H:%M:%S %p, %b %d")
+        # start_time = start_time - datetime.datetime(1900,1,1)
+        # end_time = datetime.datetime.strptime(end_time_str, "%H:%M:%S %p, %b %d")
+        # end_time = end_time - datetime.datetime(1900,1,1)
+
+        # Separte morning or afternoon
+        start_hr, start_min, start_sec = conv_12to24(start_time_str)
+        end_hr, end_min, end_sec = conv_12to24(end_time_str)
+
+        # Calc period
+        hr = end_hr - start_hr
+        min = end_min - start_min
+        sec = end_sec - start_sec
+
+        # Organize time frame
+        period = datetime.time(hour=hr, minute=min, second=sec)
+        # print("\nTest start time: ", period,  '\n')
+
+        return period
     except ValueError:
         return None
 
@@ -89,6 +114,7 @@ def sort_RTK_file(RTK_file):
     first_line = lines[0]
     first_line = first_line.split('\t')
     first_time = first_line[0]
+
     # Read the end time from the end line
     last_line = lines[-1]
     last_line = last_line.split('\t')

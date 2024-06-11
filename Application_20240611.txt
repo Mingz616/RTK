@@ -1,0 +1,1222 @@
+FILE OPENED 6/11/2024 10:41:17 AM
+[10:41:17] Initializing antenna...
+[10:41:17] Initializing device...
+[10:41:17] Device initialized successfully.
+[10:41:18] Did not reach RTK before elapsed time.
+[10:41:18] Resetting for fix test.
+[10:42:20] Time to RTK Float: 00:01:02.3203715
+[10:43:36] Time to RTK Fixed: 00:02:18.5962470
+[10:43:36] Resetting for fix test.
+[10:43:50] Time to RTK Float: 00:00:13.2561831
+[10:44:54] Time to RTK Fixed: 00:01:17.5782440
+[10:44:54] Resetting for fix test.
+[10:45:19] Time to RTK Float: 00:00:25.5724882
+[10:48:30] Time to RTK Fixed: 00:03:35.7774486
+[10:48:30] Resetting for fix test.
+[10:48:49] Time to RTK Float: 00:00:19.6871895
+[10:52:30] Time to RTK Fixed: 00:04:00.4706109
+[10:52:30] Resetting for fix test.
+[10:52:49] Time to RTK Float: 00:00:18.9361412
+[11:04:20] Time to RTK Fixed: 00:11:49.4724012
+[11:04:20] Resetting for fix test.
+[11:04:49] Time to RTK Float: 00:00:29.8372065
+[11:04:59] Time to RTK Fixed: 00:00:39.2449175
+[11:04:59] Resetting for fix test.
+[11:05:20] Time to RTK Float: 00:00:20.7853396
+[11:05:24] Time to RTK Fixed: 00:00:24.9117958
+[11:05:24] Resetting for fix test.
+[11:05:49] Time to RTK Float: 00:00:25.6831183
+[11:06:01] Time to RTK Fixed: 00:00:37.1218213
+[11:06:01] Resetting for fix test.
+[11:06:21] Time to RTK Float: 00:00:19.7515584
+[11:06:29] Time to RTK Fixed: 00:00:28.0022602
+[11:06:29] Resetting for fix test.
+[11:06:49] Time to RTK Float: 00:00:19.9065861
+[11:06:59] Time to RTK Fixed: 00:00:30.2662489
+[11:06:59] Resetting for fix test.
+[11:07:20] Time to RTK Float: 00:00:20.6959648
+[11:07:29] Time to RTK Fixed: 00:00:29.9936920
+[11:07:29] Resetting for fix test.
+[11:07:49] Time to RTK Float: 00:00:19.8774082
+[11:07:57] Time to RTK Fixed: 00:00:28.1912553
+[11:07:57] Resetting for fix test.
+[11:08:20] Time to RTK Float: 00:00:22.9092549
+[11:08:30] Time to RTK Fixed: 00:00:32.2393719
+[11:08:30] Resetting for fix test.
+[11:08:49] Time to RTK Float: 00:00:19.2035408
+[11:08:58] Time to RTK Fixed: 00:00:28.5219657
+[11:08:58] Resetting for fix test.
+[11:09:19] Time to RTK Float: 00:00:20.6924644
+[11:09:25] Time to RTK Fixed: 00:00:26.8841336
+[11:09:25] Resetting for fix test.
+[11:09:50] Time to RTK Float: 00:00:24.6962335
+[11:09:58] Time to RTK Fixed: 00:00:32.9469883
+[11:09:58] Resetting for fix test.
+[11:10:20] Time to RTK Float: 00:00:21.8163016
+[11:11:13] Time to RTK Fixed: 00:01:14.7858798
+[11:11:13] Resetting for fix test.
+[11:11:51] Time to RTK Float: 00:00:38.0474125
+[11:11:59] Time to RTK Fixed: 00:00:46.3001517
+[11:11:59] Resetting for fix test.
+[11:12:19] Time to RTK Float: 00:00:20.5056835
+[11:12:57] Time to RTK Fixed: 00:00:57.8542098
+[11:12:57] Resetting for fix test.
+[11:13:19] Time to RTK Float: 00:00:22.0138116
+[11:13:28] Time to RTK Fixed: 00:00:31.3738118
+[11:13:28] Resetting for fix test.
+[11:13:49] Time to RTK Float: 00:00:21.1208123
+[11:13:59] Time to RTK Fixed: 00:00:30.5884264
+[11:13:59] Resetting for fix test.
+[11:14:20] Time to RTK Float: 00:00:21.0005898
+[11:14:29] Time to RTK Fixed: 00:00:30.2830518
+[11:14:29] Resetting for fix test.
+[11:14:49] Time to RTK Float: 00:00:19.9354737
+[11:14:59] Time to RTK Fixed: 00:00:30.3729489
+[11:14:59] Resetting for fix test.
+[11:15:19] Time to RTK Float: 00:00:20.0587471
+[11:15:29] Time to RTK Fixed: 00:00:29.4951606
+[11:15:29] Resetting for fix test.
+[11:15:49] Time to RTK Float: 00:00:19.9201991
+[11:15:59] Time to RTK Fixed: 00:00:30.0964422
+[11:15:59] Resetting for fix test.
+[11:16:20] Time to RTK Float: 00:00:20.7544911
+[11:16:27] Time to RTK Fixed: 00:00:27.9442716
+[11:16:27] Resetting for fix test.
+[11:16:49] Time to RTK Float: 00:00:22.3841358
+[11:16:57] Time to RTK Fixed: 00:00:29.6332345
+[11:16:57] Resetting for fix test.
+[11:17:19] Time to RTK Float: 00:00:22.5689246
+[11:17:27] Time to RTK Fixed: 00:00:30.7569004
+[11:17:27] Resetting for fix test.
+[11:17:49] Time to RTK Float: 00:00:21.5271669
+[11:17:57] Time to RTK Fixed: 00:00:29.6536722
+[11:17:57] Resetting for fix test.
+[11:18:21] Time to RTK Float: 00:00:23.5998812
+[11:18:28] Time to RTK Fixed: 00:00:30.9125000
+[11:18:28] Resetting for fix test.
+[11:18:49] Time to RTK Float: 00:00:21.0615440
+[11:18:56] Time to RTK Fixed: 00:00:28.3737954
+[11:18:56] Resetting for fix test.
+[11:19:21] Time to RTK Float: 00:00:24.2451002
+[11:19:27] Time to RTK Fixed: 00:00:30.4478485
+[11:19:27] Resetting for fix test.
+[11:19:50] Time to RTK Float: 00:00:22.8646319
+[11:19:57] Time to RTK Fixed: 00:00:30.1754599
+[11:19:57] Resetting for fix test.
+[11:20:20] Time to RTK Float: 00:00:22.9371663
+[11:20:28] Time to RTK Fixed: 00:00:31.3114375
+[11:20:28] Resetting for fix test.
+[11:20:49] Time to RTK Float: 00:00:20.8728775
+[11:20:58] Time to RTK Fixed: 00:00:29.3095283
+[11:20:58] Resetting for fix test.
+[11:21:20] Time to RTK Float: 00:00:22.0593362
+[11:21:29] Time to RTK Fixed: 00:00:31.4356587
+[11:21:29] Resetting for fix test.
+[11:21:49] Time to RTK Float: 00:00:19.8430270
+[11:22:01] Time to RTK Fixed: 00:00:32.3726245
+[11:22:01] Resetting for fix test.
+[11:22:20] Time to RTK Float: 00:00:18.8722697
+[11:22:29] Time to RTK Fixed: 00:00:28.0919937
+[11:22:29] Resetting for fix test.
+[11:22:50] Time to RTK Float: 00:00:20.3824281
+[11:22:59] Time to RTK Fixed: 00:00:29.5296706
+[11:22:59] Resetting for fix test.
+[11:23:19] Time to RTK Float: 00:00:20.4883051
+[11:23:33] Time to RTK Fixed: 00:00:33.6200908
+[11:23:33] Resetting for fix test.
+[11:23:49] Time to RTK Float: 00:00:16.6148236
+[11:23:59] Time to RTK Fixed: 00:00:25.9434452
+[11:23:59] Resetting for fix test.
+[11:24:19] Time to RTK Float: 00:00:20.5657607
+[11:24:27] Time to RTK Fixed: 00:00:28.6923342
+[11:24:27] Resetting for fix test.
+[11:24:50] Time to RTK Float: 00:00:22.6888529
+[11:24:58] Time to RTK Fixed: 00:00:31.0003307
+[11:24:58] Resetting for fix test.
+[11:25:20] Time to RTK Float: 00:00:21.4437584
+[11:25:28] Time to RTK Fixed: 00:00:29.5708918
+[11:25:28] Resetting for fix test.
+[11:25:51] Time to RTK Float: 00:00:22.8618397
+[11:25:59] Time to RTK Fixed: 00:00:31.1128978
+[11:25:59] Resetting for fix test.
+[11:26:20] Time to RTK Float: 00:00:20.9372391
+[11:26:26] Time to RTK Fixed: 00:00:27.1863337
+[11:26:26] Resetting for fix test.
+[11:26:50] Time to RTK Float: 00:00:24.0649070
+[11:26:55] Time to RTK Fixed: 00:00:29.3761958
+[11:26:55] Resetting for fix test.
+[11:27:20] Time to RTK Float: 00:00:24.1855763
+[11:27:26] Time to RTK Fixed: 00:00:30.4349158
+[11:27:26] Resetting for fix test.
+[11:27:50] Time to RTK Float: 00:00:23.7080002
+[11:27:54] Time to RTK Fixed: 00:00:27.9113485
+[11:27:54] Resetting for fix test.
+[11:28:20] Time to RTK Float: 00:00:25.8033220
+[11:28:24] Time to RTK Fixed: 00:00:29.9282790
+[11:28:24] Resetting for fix test.
+[11:28:50] Time to RTK Float: 00:00:25.7696297
+[11:28:55] Time to RTK Fixed: 00:00:30.9414978
+[11:28:55] Resetting for fix test.
+[11:29:19] Time to RTK Float: 00:00:24.5676095
+[11:29:24] Time to RTK Fixed: 00:00:29.6323284
+[11:29:24] Resetting for fix test.
+[11:29:49] Time to RTK Float: 00:00:24.8788145
+[11:29:54] Time to RTK Fixed: 00:00:30.0664087
+[11:29:54] Resetting for fix test.
+[11:30:20] Time to RTK Float: 00:00:25.9100596
+[11:30:26] Time to RTK Fixed: 00:00:31.1598942
+[11:30:26] Resetting for fix test.
+[11:30:51] Time to RTK Float: 00:00:25.1220572
+[11:30:57] Time to RTK Fixed: 00:00:31.4952754
+[11:30:57] Resetting for fix test.
+[11:31:20] Time to RTK Float: 00:00:23.0604338
+[11:31:26] Time to RTK Fixed: 00:00:29.4341226
+[11:31:26] Resetting for fix test.
+[11:31:51] Time to RTK Float: 00:00:24.0601431
+[11:31:56] Time to RTK Fixed: 00:00:29.3405297
+[11:31:56] Resetting for fix test.
+[11:32:20] Time to RTK Float: 00:00:24.1978058
+[11:32:27] Time to RTK Fixed: 00:00:31.3733608
+[11:32:27] Resetting for fix test.
+[11:32:50] Time to RTK Float: 00:00:22.8136400
+[11:32:56] Time to RTK Fixed: 00:00:29.0022490
+[11:32:56] Resetting for fix test.
+[11:33:20] Time to RTK Float: 00:00:23.6885500
+[11:33:26] Time to RTK Fixed: 00:00:29.9380739
+[11:33:26] Resetting for fix test.
+[11:33:49] Time to RTK Float: 00:00:22.6763966
+[11:33:55] Time to RTK Fixed: 00:00:28.8805208
+[11:33:55] Resetting for fix test.
+[11:34:20] Time to RTK Float: 00:00:24.5025204
+[11:34:26] Time to RTK Fixed: 00:00:30.5671405
+[11:34:26] Resetting for fix test.
+[11:34:49] Time to RTK Float: 00:00:23.6938267
+[11:34:55] Time to RTK Fixed: 00:00:29.8818871
+[11:34:55] Resetting for fix test.
+[11:35:19] Time to RTK Float: 00:00:23.5061584
+[11:35:25] Time to RTK Fixed: 00:00:29.6961680
+[11:35:25] Resetting for fix test.
+[11:35:49] Time to RTK Float: 00:00:23.8002830
+[11:35:55] Time to RTK Fixed: 00:00:29.9887211
+[11:35:55] Resetting for fix test.
+[11:36:19] Time to RTK Float: 00:00:24.0653483
+[11:36:25] Time to RTK Fixed: 00:00:30.2533218
+[11:36:25] Resetting for fix test.
+[11:36:50] Time to RTK Float: 00:00:24.6934092
+[11:36:52] Time to RTK Fixed: 00:00:26.7557270
+[11:36:52] Resetting for fix test.
+[11:37:20] Time to RTK Float: 00:00:27.8163937
+[11:37:26] Time to RTK Fixed: 00:00:34.0043434
+[11:37:26] Resetting for fix test.
+[11:37:50] Time to RTK Float: 00:00:23.9976611
+[11:37:52] Time to RTK Fixed: 00:00:26.0601417
+[11:37:52] Resetting for fix test.
+[11:38:19] Time to RTK Float: 00:00:26.8199828
+[11:38:25] Time to RTK Fixed: 00:00:33.0075765
+[11:38:25] Resetting for fix test.
+[11:38:50] Time to RTK Float: 00:00:24.6289035
+[11:38:56] Time to RTK Fixed: 00:00:30.8186947
+[11:38:56] Resetting for fix test.
+[11:39:19] Time to RTK Float: 00:00:22.7519273
+[11:39:22] Time to RTK Fixed: 00:00:25.8765731
+[11:39:22] Resetting for fix test.
+[11:39:49] Time to RTK Float: 00:00:26.8171006
+[11:39:55] Time to RTK Fixed: 00:00:33.0049205
+[11:39:55] Resetting for fix test.
+[11:40:19] Time to RTK Float: 00:00:23.9376071
+[11:40:22] Time to RTK Fixed: 00:00:26.9388084
+[11:40:22] Resetting for fix test.
+[11:40:49] Time to RTK Float: 00:00:27.0024002
+[11:40:53] Time to RTK Fixed: 00:00:31.1274684
+[11:40:53] Resetting for fix test.
+[11:41:20] Time to RTK Float: 00:00:26.7845558
+[11:41:21] Time to RTK Fixed: 00:00:27.7855219
+[11:41:21] Resetting for fix test.
+[11:41:50] Time to RTK Float: 00:00:28.8667356
+[11:41:52] Time to RTK Fixed: 00:00:30.9295269
+[11:41:52] Resetting for fix test.
+[11:42:19] Time to RTK Float: 00:00:27.1242505
+[11:42:25] Time to RTK Fixed: 00:00:33.3117405
+[11:42:25] Resetting for fix test.
+[11:42:49] Time to RTK Float: 00:00:23.7696134
+[11:42:56] Time to RTK Fixed: 00:00:30.8806841
+[11:42:56] Resetting for fix test.
+[11:43:21] Time to RTK Float: 00:00:24.8200728
+[11:43:30] Time to RTK Fixed: 00:00:34.1016360
+[11:43:30] Resetting for fix test.
+[11:43:50] Time to RTK Float: 00:00:20.4453753
+[11:43:51] Time to RTK Fixed: 00:00:21.4458132
+[11:43:51] Resetting for fix test.
+[11:44:20] Time to RTK Float: 00:00:29.0033819
+[11:44:28] Time to RTK Fixed: 00:00:36.1938178
+[11:44:28] Resetting for fix test.
+[11:44:50] Time to RTK Float: 00:00:21.9515680
+[11:44:55] Time to RTK Fixed: 00:00:27.1551821
+[11:44:55] Resetting for fix test.
+[11:45:20] Time to RTK Float: 00:00:24.9978786
+[11:45:22] Time to RTK Fixed: 00:00:27.0446247
+[11:45:22] Resetting for fix test.
+[11:45:49] Time to RTK Float: 00:00:27.1860830
+[11:45:51] Time to RTK Fixed: 00:00:29.3105878
+[11:45:51] Resetting for fix test.
+[11:46:19] Time to RTK Float: 00:00:28.1855781
+[11:46:21] Time to RTK Fixed: 00:00:30.3101200
+[11:46:21] Resetting for fix test.
+[11:46:49] Time to RTK Float: 00:00:27.3410951
+[11:46:55] Time to RTK Fixed: 00:00:33.4983866
+[11:46:55] Resetting for fix test.
+[11:47:20] Time to RTK Float: 00:00:25.0009970
+[11:47:23] Time to RTK Fixed: 00:00:28.1264832
+[11:47:23] Resetting for fix test.
+[11:47:49] Time to RTK Float: 00:00:26.1875929
+[11:47:53] Time to RTK Fixed: 00:00:30.3745317
+[11:47:53] Resetting for fix test.
+[11:48:20] Time to RTK Float: 00:00:26.2488822
+[11:48:21] Time to RTK Fixed: 00:00:27.2489488
+[11:48:21] Resetting for fix test.
+[11:48:49] Time to RTK Float: 00:00:28.0925939
+[11:48:54] Time to RTK Fixed: 00:00:33.3104249
+[11:48:54] Resetting for fix test.
+[11:49:20] Time to RTK Float: 00:00:26.1238450
+[11:49:24] Time to RTK Fixed: 00:00:30.3106576
+[11:49:24] Resetting for fix test.
+[11:49:50] Time to RTK Float: 00:00:25.9392725
+[11:49:55] Time to RTK Fixed: 00:00:31.1273327
+[11:49:55] Resetting for fix test.
+[11:50:21] Time to RTK Float: 00:00:25.1885608
+[11:50:24] Time to RTK Fixed: 00:00:28.3759692
+[11:50:24] Resetting for fix test.
+[11:50:50] Time to RTK Float: 00:00:26.1856659
+[11:50:55] Time to RTK Fixed: 00:00:31.3738330
+[11:50:55] Resetting for fix test.
+[11:51:19] Time to RTK Float: 00:00:23.8146662
+[11:51:23] Time to RTK Fixed: 00:00:27.9389485
+[11:51:23] Resetting for fix test.
+[11:51:50] Time to RTK Float: 00:00:27.1227903
+[11:51:54] Time to RTK Fixed: 00:00:31.3097161
+[11:51:54] Resetting for fix test.
+[11:52:20] Time to RTK Float: 00:00:25.0591227
+[11:52:24] Time to RTK Fixed: 00:00:29.2145076
+[11:52:24] Resetting for fix test.
+[11:52:49] Time to RTK Float: 00:00:25.7714562
+[11:52:55] Time to RTK Fixed: 00:00:30.9596326
+[11:52:55] Resetting for fix test.
+[11:53:20] Time to RTK Float: 00:00:24.9368768
+[11:53:23] Time to RTK Fixed: 00:00:28.0616587
+[11:53:23] Resetting for fix test.
+[11:53:50] Time to RTK Float: 00:00:26.9415621
+[11:53:56] Time to RTK Fixed: 00:00:33.2531437
+[11:53:56] Resetting for fix test.
+[11:54:20] Time to RTK Float: 00:00:23.7511012
+[11:54:25] Time to RTK Fixed: 00:00:28.9379165
+[11:54:25] Resetting for fix test.
+[11:54:50] Time to RTK Float: 00:00:24.8156882
+[11:54:55] Time to RTK Fixed: 00:00:29.9256585
+[11:54:55] Resetting for fix test.
+[11:55:20] Time to RTK Float: 00:00:25.2480761
+[11:55:27] Time to RTK Fixed: 00:00:32.4378101
+[11:55:27] Resetting for fix test.
+[11:55:49] Time to RTK Float: 00:00:21.8136285
+[11:55:54] Time to RTK Fixed: 00:00:27.0016791
+[11:55:54] Resetting for fix test.
+[11:56:20] Time to RTK Float: 00:00:26.0623170
+[11:56:26] Time to RTK Fixed: 00:00:31.2497214
+[11:56:26] Resetting for fix test.
+[11:56:50] Time to RTK Float: 00:00:24.8310800
+[11:56:57] Time to RTK Fixed: 00:00:31.1109433
+[11:56:57] Resetting for fix test.
+[11:57:20] Time to RTK Float: 00:00:23.6921028
+[11:57:26] Time to RTK Fixed: 00:00:28.8812045
+[11:57:26] Resetting for fix test.
+[11:57:50] Time to RTK Float: 00:00:24.7438655
+[11:57:56] Time to RTK Fixed: 00:00:29.9938537
+[11:57:56] Resetting for fix test.
+[11:58:20] Time to RTK Float: 00:00:24.2464818
+[11:58:24] Time to RTK Fixed: 00:00:28.3258341
+[11:58:24] Resetting for fix test.
+[11:58:50] Time to RTK Float: 00:00:25.7207093
+[11:58:54] Time to RTK Fixed: 00:00:29.9381000
+[11:58:54] Resetting for fix test.
+[11:59:20] Time to RTK Float: 00:00:26.2139598
+[11:59:24] Time to RTK Fixed: 00:00:30.3387525
+[11:59:24] Resetting for fix test.
+[11:59:50] Time to RTK Float: 00:00:26.0593008
+[11:59:58] Time to RTK Fixed: 00:00:33.4329838
+[11:59:58] Resetting for fix test.
+[12:00:21] Time to RTK Float: 00:00:23.1222333
+[12:00:25] Time to RTK Fixed: 00:00:27.2782967
+[12:00:25] Resetting for fix test.
+[12:00:50] Time to RTK Float: 00:00:25.1405473
+[12:00:55] Time to RTK Fixed: 00:00:30.3901849
+[12:00:55] Resetting for fix test.
+[12:01:20] Time to RTK Float: 00:00:24.9399671
+[12:01:25] Time to RTK Fixed: 00:00:30.0657003
+[12:01:25] Resetting for fix test.
+[12:01:50] Time to RTK Float: 00:00:24.6911691
+[12:01:55] Time to RTK Fixed: 00:00:29.8170831
+[12:01:55] Resetting for fix test.
+[12:02:19] Time to RTK Float: 00:00:23.8780106
+[12:02:24] Time to RTK Fixed: 00:00:29.1894932
+[12:02:24] Resetting for fix test.
+[12:02:50] Time to RTK Float: 00:00:25.6946920
+[12:02:55] Time to RTK Fixed: 00:00:30.6958858
+[12:02:55] Resetting for fix test.
+[12:03:21] Time to RTK Float: 00:00:25.6926011
+[12:03:27] Time to RTK Fixed: 00:00:31.8026591
+[12:03:27] Resetting for fix test.
+[12:03:50] Time to RTK Float: 00:00:23.6002187
+[12:03:58] Time to RTK Fixed: 00:00:31.0056662
+[12:03:58] Resetting for fix test.
+[12:04:20] Time to RTK Float: 00:00:21.7201575
+[12:04:26] Time to RTK Fixed: 00:00:28.0008327
+[12:04:26] Resetting for fix test.
+[12:04:50] Time to RTK Float: 00:00:23.9237505
+[12:04:56] Time to RTK Fixed: 00:00:30.2352936
+[12:04:56] Resetting for fix test.
+[12:05:21] Time to RTK Float: 00:00:24.6901697
+[12:05:26] Time to RTK Fixed: 00:00:30.0012689
+[12:05:26] Resetting for fix test.
+[12:05:50] Time to RTK Float: 00:00:23.8772721
+[12:05:56] Time to RTK Fixed: 00:00:30.0643531
+[12:05:56] Resetting for fix test.
+[12:06:19] Time to RTK Float: 00:00:22.7221735
+[12:06:25] Time to RTK Fixed: 00:00:29.0029039
+[12:06:25] Resetting for fix test.
+[12:06:49] Time to RTK Float: 00:00:23.9999857
+[12:06:55] Time to RTK Fixed: 00:00:30.1891839
+[12:06:55] Resetting for fix test.
+[12:07:19] Time to RTK Float: 00:00:23.7528993
+[12:07:24] Time to RTK Fixed: 00:00:28.9413602
+[12:07:24] Resetting for fix test.
+[12:07:49] Time to RTK Float: 00:00:24.8758279
+[12:07:54] Time to RTK Fixed: 00:00:30.1250597
+[12:07:54] Resetting for fix test.
+[12:08:20] Time to RTK Float: 00:00:25.6302402
+[12:08:26] Time to RTK Fixed: 00:00:31.9418205
+[12:08:26] Resetting for fix test.
+[12:08:50] Time to RTK Float: 00:00:23.8932469
+[12:08:55] Time to RTK Fixed: 00:00:29.0808269
+[12:08:55] Resetting for fix test.
+[12:09:20] Time to RTK Float: 00:00:24.5704034
+[12:09:26] Time to RTK Fixed: 00:00:30.8204010
+[12:09:26] Resetting for fix test.
+[12:09:49] Time to RTK Float: 00:00:23.2621476
+[12:09:56] Time to RTK Fixed: 00:00:29.3886427
+[12:09:56] Resetting for fix test.
+[12:10:20] Time to RTK Float: 00:00:24.7735811
+[12:10:27] Time to RTK Fixed: 00:00:31.0252145
+[12:10:27] Resetting for fix test.
+[12:10:49] Time to RTK Float: 00:00:22.8144622
+[12:10:56] Time to RTK Fixed: 00:00:29.0642617
+[12:10:56] Resetting for fix test.
+[12:11:19] Time to RTK Float: 00:00:23.7514371
+[12:11:25] Time to RTK Fixed: 00:00:29.0014915
+[12:11:25] Resetting for fix test.
+[12:11:50] Time to RTK Float: 00:00:24.8788646
+[12:11:54] Time to RTK Fixed: 00:00:29.0809004
+[12:11:54] Resetting for fix test.
+[12:12:20] Time to RTK Float: 00:00:26.6651847
+[12:12:25] Time to RTK Fixed: 00:00:31.7297226
+[12:12:25] Resetting for fix test.
+[12:12:49] Time to RTK Float: 00:00:23.4460800
+[12:12:55] Time to RTK Fixed: 00:00:29.6363222
+[12:12:55] Resetting for fix test.
+[12:13:19] Time to RTK Float: 00:00:24.1734393
+[12:13:24] Time to RTK Fixed: 00:00:29.3618488
+[12:13:24] Resetting for fix test.
+[12:13:49] Time to RTK Float: 00:00:24.8774851
+[12:13:54] Time to RTK Fixed: 00:00:30.0039166
+[12:13:54] Resetting for fix test.
+[12:14:20] Time to RTK Float: 00:00:25.1256938
+[12:14:25] Time to RTK Fixed: 00:00:30.3443695
+[12:14:25] Resetting for fix test.
+[12:14:50] Time to RTK Float: 00:00:25.5999670
+[12:14:56] Time to RTK Fixed: 00:00:30.8496320
+[12:14:56] Resetting for fix test.
+[12:15:20] Time to RTK Float: 00:00:23.9998072
+[12:15:24] Time to RTK Fixed: 00:00:28.1863465
+[12:15:24] Resetting for fix test.
+[12:15:51] Time to RTK Float: 00:00:26.8785624
+[12:15:56] Time to RTK Fixed: 00:00:32.0193023
+[12:15:56] Resetting for fix test.
+[12:16:21] Time to RTK Float: 00:00:24.8178514
+[12:16:22] Time to RTK Fixed: 00:00:25.8797243
+[12:16:22] Resetting for fix test.
+[12:16:51] Time to RTK Float: 00:00:29.0047531
+[12:16:55] Time to RTK Fixed: 00:00:33.1300220
+[12:16:55] Resetting for fix test.
+[12:17:20] Time to RTK Float: 00:00:24.6352043
+[12:17:25] Time to RTK Fixed: 00:00:29.8849425
+[12:17:25] Resetting for fix test.
+[12:17:50] Time to RTK Float: 00:00:24.8542283
+[12:17:55] Time to RTK Fixed: 00:00:30.0250206
+[12:17:55] Resetting for fix test.
+[12:18:21] Time to RTK Float: 00:00:25.8317863
+[12:18:27] Time to RTK Fixed: 00:00:31.8969866
+[12:18:27] Resetting for fix test.
+[12:18:49] Time to RTK Float: 00:00:22.6288908
+[12:18:55] Time to RTK Fixed: 00:00:27.8162972
+[12:18:55] Resetting for fix test.
+[12:19:19] Time to RTK Float: 00:00:24.6951297
+[12:19:25] Time to RTK Fixed: 00:00:30.8865215
+[12:19:25] Resetting for fix test.
+[12:19:49] Time to RTK Float: 00:00:23.5648246
+[12:19:53] Time to RTK Fixed: 00:00:27.6301054
+[12:19:53] Resetting for fix test.
+[12:20:20] Time to RTK Float: 00:00:26.9393928
+[12:20:24] Time to RTK Fixed: 00:00:31.1881828
+[12:20:24] Resetting for fix test.
+[12:20:50] Time to RTK Float: 00:00:25.6329738
+[12:20:54] Time to RTK Fixed: 00:00:29.7439649
+[12:20:54] Resetting for fix test.
+[12:21:20] Time to RTK Float: 00:00:25.9425863
+[12:21:24] Time to RTK Fixed: 00:00:30.0676044
+[12:21:24] Resetting for fix test.
+[12:21:50] Time to RTK Float: 00:00:25.8164710
+[12:21:54] Time to RTK Fixed: 00:00:30.0037564
+[12:21:54] Resetting for fix test.
+[12:22:20] Time to RTK Float: 00:00:26.0004279
+[12:22:24] Time to RTK Fixed: 00:00:30.0020307
+[12:22:24] Resetting for fix test.
+[12:22:50] Time to RTK Float: 00:00:25.9698227
+[12:22:54] Time to RTK Fixed: 00:00:30.0946310
+[12:22:54] Resetting for fix test.
+[12:23:20] Time to RTK Float: 00:00:25.6762156
+[12:23:24] Time to RTK Fixed: 00:00:29.6784911
+[12:23:24] Resetting for fix test.
+[12:23:50] Time to RTK Float: 00:00:26.3043721
+[12:23:55] Time to RTK Fixed: 00:00:31.4769879
+[12:23:55] Resetting for fix test.
+[12:24:19] Time to RTK Float: 00:00:23.7100205
+[12:24:23] Time to RTK Fixed: 00:00:27.7140547
+[12:24:23] Resetting for fix test.
+[12:24:49] Time to RTK Float: 00:00:25.7257600
+[12:24:54] Time to RTK Fixed: 00:00:30.8517849
+[12:24:54] Resetting for fix test.
+[12:25:19] Time to RTK Float: 00:00:25.1994470
+[12:25:24] Time to RTK Fixed: 00:00:30.4485342
+[12:25:24] Resetting for fix test.
+[12:25:49] Time to RTK Float: 00:00:24.6473796
+[12:25:54] Time to RTK Fixed: 00:00:29.8964567
+[12:25:54] Resetting for fix test.
+[12:26:19] Time to RTK Float: 00:00:24.5722467
+[12:26:25] Time to RTK Fixed: 00:00:30.6989558
+[12:26:25] Resetting for fix test.
+[12:26:51] Time to RTK Float: 00:00:25.6341319
+[12:26:56] Time to RTK Fixed: 00:00:30.8837587
+[12:26:56] Resetting for fix test.
+[12:27:20] Time to RTK Float: 00:00:24.5680767
+[12:27:27] Time to RTK Fixed: 00:00:30.7561767
+[12:27:27] Resetting for fix test.
+[12:27:50] Time to RTK Float: 00:00:23.3840706
+[12:27:56] Time to RTK Fixed: 00:00:29.6337977
+[12:27:56] Resetting for fix test.
+[12:28:19] Time to RTK Float: 00:00:22.8147276
+[12:28:25] Time to RTK Fixed: 00:00:29.0024677
+[12:28:25] Resetting for fix test.
+[12:28:51] Time to RTK Float: 00:00:25.4463659
+[12:28:56] Time to RTK Fixed: 00:00:30.6970034
+[12:28:56] Resetting for fix test.
+[12:29:20] Time to RTK Float: 00:00:23.6306401
+[12:29:21] Time to RTK Fixed: 00:00:24.6930013
+[12:29:21] Resetting for fix test.
+[12:29:49] Time to RTK Float: 00:00:28.7106509
+[12:29:51] Time to RTK Fixed: 00:00:30.8359314
+[12:29:51] Resetting for fix test.
+[12:30:19] Time to RTK Float: 00:00:27.9996713
+[12:30:26] Time to RTK Fixed: 00:00:34.1879950
+[12:30:26] Resetting for fix test.
+[12:30:49] Time to RTK Float: 00:00:23.6263672
+[12:30:51] Time to RTK Fixed: 00:00:25.6887688
+[12:30:51] Resetting for fix test.
+[12:31:19] Time to RTK Float: 00:00:27.9401347
+[12:31:25] Time to RTK Fixed: 00:00:34.0686531
+[12:31:25] Resetting for fix test.
+[12:31:49] Time to RTK Float: 00:00:23.9995119
+[12:31:56] Time to RTK Fixed: 00:00:30.3684797
+[12:31:56] Resetting for fix test.
+[12:32:19] Time to RTK Float: 00:00:23.7196990
+[12:32:21] Time to RTK Fixed: 00:00:24.7819735
+[12:32:21] Resetting for fix test.
+[12:32:52] Time to RTK Float: 00:00:31.1878248
+[12:32:57] Time to RTK Fixed: 00:00:36.4370897
+[12:32:57] Resetting for fix test.
+[12:33:20] Time to RTK Float: 00:00:22.8987805
+[12:33:22] Time to RTK Fixed: 00:00:24.9007364
+[12:33:22] Resetting for fix test.
+[12:33:49] Time to RTK Float: 00:00:26.9201228
+[12:33:54] Time to RTK Fixed: 00:00:32.1390221
+[12:33:54] Resetting for fix test.
+[12:34:21] Time to RTK Float: 00:00:26.6645455
+[12:34:26] Time to RTK Fixed: 00:00:31.8676526
+[12:34:26] Resetting for fix test.
+[12:34:51] Time to RTK Float: 00:00:24.8619615
+[12:34:55] Time to RTK Fixed: 00:00:28.9258540
+[12:34:55] Resetting for fix test.
+[12:35:20] Time to RTK Float: 00:00:25.6306613
+[12:35:26] Time to RTK Fixed: 00:00:30.8181979
+[12:35:26] Resetting for fix test.
+[12:35:50] Time to RTK Float: 00:00:24.7600919
+[12:35:52] Time to RTK Fixed: 00:00:26.8846156
+[12:35:52] Resetting for fix test.
+[12:36:20] Time to RTK Float: 00:00:27.7542447
+[12:36:29] Time to RTK Fixed: 00:00:36.1298393
+[12:36:29] Resetting for fix test.
+[12:36:49] Time to RTK Float: 00:00:20.8349237
+[12:36:51] Time to RTK Fixed: 00:00:21.8971996
+[12:36:51] Resetting for fix test.
+[12:37:21] Time to RTK Float: 00:00:30.0644601
+[12:37:26] Time to RTK Fixed: 00:00:35.3297052
+[12:37:26] Resetting for fix test.
+[12:37:50] Time to RTK Float: 00:00:23.9794903
+[12:37:56] Time to RTK Fixed: 00:00:30.1675560
+[12:37:56] Resetting for fix test.
+[12:38:20] Time to RTK Float: 00:00:23.8158512
+[12:38:27] Time to RTK Fixed: 00:00:31.0673185
+[12:38:27] Resetting for fix test.
+[12:38:50] Time to RTK Float: 00:00:22.8060048
+[12:38:53] Time to RTK Fixed: 00:00:25.8698187
+[12:38:53] Resetting for fix test.
+[12:39:21] Time to RTK Float: 00:00:27.8759314
+[12:39:25] Time to RTK Fixed: 00:00:32.0010420
+[12:39:25] Resetting for fix test.
+[12:39:51] Time to RTK Float: 00:00:25.6978211
+[12:39:52] Time to RTK Fixed: 00:00:26.6979777
+[12:39:52] Resetting for fix test.
+[12:40:21] Time to RTK Float: 00:00:29.0645072
+[12:40:27] Time to RTK Fixed: 00:00:35.1291955
+[12:40:27] Resetting for fix test.
+[12:40:50] Time to RTK Float: 00:00:23.6959641
+[12:40:58] Time to RTK Fixed: 00:00:30.8929678
+[12:40:58] Resetting for fix test.
+[12:41:19] Time to RTK Float: 00:00:21.7150543
+[12:41:21] Time to RTK Fixed: 00:00:23.7772605
+[12:41:21] Resetting for fix test.
+[12:41:51] Time to RTK Float: 00:00:29.1233357
+[12:41:56] Time to RTK Fixed: 00:00:34.1865892
+[12:41:56] Resetting for fix test.
+[12:42:21] Time to RTK Float: 00:00:24.9180999
+[12:42:55] Time to RTK Fixed: 00:00:59.1400370
+[12:42:55] Resetting for fix test.
+[12:43:20] Time to RTK Float: 00:00:24.9980038
+[12:43:26] Time to RTK Fixed: 00:00:31.1845880
+[12:43:26] Resetting for fix test.
+[12:43:49] Time to RTK Float: 00:00:22.7803891
+[12:43:53] Time to RTK Fixed: 00:00:26.9050256
+[12:43:53] Resetting for fix test.
+[12:44:19] Time to RTK Float: 00:00:26.1872805
+[12:44:23] Time to RTK Fixed: 00:00:30.3745632
+[12:44:23] Resetting for fix test.
+[12:44:49] Time to RTK Float: 00:00:26.0593235
+[12:44:56] Time to RTK Fixed: 00:00:32.3702317
+[12:44:56] Resetting for fix test.
+[12:45:21] Time to RTK Float: 00:00:25.2154615
+[12:45:24] Time to RTK Fixed: 00:00:28.3088289
+[12:45:24] Resetting for fix test.
+[12:45:50] Time to RTK Float: 00:00:26.0665632
+[12:45:54] Time to RTK Fixed: 00:00:30.1929513
+[12:45:54] Resetting for fix test.
+[12:46:20] Time to RTK Float: 00:00:25.9993723
+[12:46:24] Time to RTK Fixed: 00:00:30.1871187
+[12:46:24] Resetting for fix test.
+[12:46:50] Time to RTK Float: 00:00:26.0592579
+[12:46:54] Time to RTK Fixed: 00:00:30.1863589
+[12:46:54] Resetting for fix test.
+[12:47:20] Time to RTK Float: 00:00:25.4972895
+[12:47:25] Time to RTK Fixed: 00:00:30.6845825
+[12:47:25] Resetting for fix test.
+[12:47:50] Time to RTK Float: 00:00:24.8239090
+[12:47:55] Time to RTK Fixed: 00:00:30.0112861
+[12:47:55] Resetting for fix test.
+[12:48:20] Time to RTK Float: 00:00:25.0025849
+[12:48:24] Time to RTK Fixed: 00:00:29.2520678
+[12:48:24] Resetting for fix test.
+[12:48:49] Time to RTK Float: 00:00:24.9961069
+[12:48:55] Time to RTK Fixed: 00:00:30.0613662
+[12:48:55] Resetting for fix test.
+[12:49:19] Time to RTK Float: 00:00:24.6314760
+[12:49:25] Time to RTK Fixed: 00:00:30.6978287
+[12:49:25] Resetting for fix test.
+[12:49:51] Time to RTK Float: 00:00:25.5941662
+[12:49:55] Time to RTK Fixed: 00:00:29.7654089
+[12:49:55] Resetting for fix test.
+[12:50:20] Time to RTK Float: 00:00:25.0611207
+[12:50:25] Time to RTK Fixed: 00:00:30.1871974
+[12:50:25] Resetting for fix test.
+[12:50:49] Time to RTK Float: 00:00:24.0603619
+[12:50:51] Time to RTK Fixed: 00:00:26.1848376
+[12:50:51] Resetting for fix test.
+[12:51:21] Time to RTK Float: 00:00:29.3086750
+[12:51:26] Time to RTK Fixed: 00:00:34.5262515
+[12:51:26] Resetting for fix test.
+[12:51:50] Time to RTK Float: 00:00:24.0979848
+[12:51:53] Time to RTK Fixed: 00:00:27.1606222
+[12:51:53] Resetting for fix test.
+[12:52:19] Time to RTK Float: 00:00:26.1248240
+[12:52:24] Time to RTK Fixed: 00:00:31.4362020
+[12:52:24] Resetting for fix test.
+[12:52:50] Time to RTK Float: 00:00:25.9983266
+[12:52:55] Time to RTK Fixed: 00:00:30.2473269
+[12:52:55] Resetting for fix test.
+[12:53:21] Time to RTK Float: 00:00:25.8188185
+[12:53:26] Time to RTK Fixed: 00:00:31.0707472
+[12:53:26] Resetting for fix test.
+[12:53:50] Time to RTK Float: 00:00:24.6924891
+[12:53:56] Time to RTK Fixed: 00:00:29.8821919
+[12:53:56] Resetting for fix test.
+[12:54:19] Time to RTK Float: 00:00:23.8181837
+[12:54:25] Time to RTK Fixed: 00:00:28.9455647
+[12:54:25] Resetting for fix test.
+[12:54:50] Time to RTK Float: 00:00:25.8903948
+[12:54:56] Time to RTK Fixed: 00:00:31.2324999
+[12:54:56] Resetting for fix test.
+[12:55:20] Time to RTK Float: 00:00:24.1534003
+[12:55:25] Time to RTK Fixed: 00:00:29.3400229
+[12:55:25] Resetting for fix test.
+[12:55:49] Time to RTK Float: 00:00:24.1313965
+[12:55:58] Time to RTK Fixed: 00:00:32.5057833
+[12:55:58] Resetting for fix test.
+[12:56:21] Time to RTK Float: 00:00:22.8474483
+[12:56:25] Time to RTK Fixed: 00:00:27.0340532
+[12:56:25] Resetting for fix test.
+[12:56:50] Time to RTK Float: 00:00:25.7578141
+[12:56:56] Time to RTK Fixed: 00:00:31.0999151
+[12:56:56] Resetting for fix test.
+[12:57:19] Time to RTK Float: 00:00:23.0910566
+[12:57:20] Time to RTK Fixed: 00:00:24.1530022
+[12:57:20] Resetting for fix test.
+[12:57:49] Time to RTK Float: 00:00:29.3936891
+[12:57:51] Time to RTK Fixed: 00:00:31.3951856
+[12:57:51] Resetting for fix test.
+[12:58:20] Time to RTK Float: 00:00:28.7539991
+[12:58:24] Time to RTK Fixed: 00:00:32.9415729
+[12:58:24] Resetting for fix test.
+[12:58:50] Time to RTK Float: 00:00:25.7575749
+[12:58:53] Time to RTK Fixed: 00:00:28.8827041
+[12:58:53] Resetting for fix test.
+[12:59:20] Time to RTK Float: 00:00:27.0630453
+[12:59:28] Time to RTK Fixed: 00:00:34.3161924
+[12:59:28] Resetting for fix test.
+[12:59:50] Time to RTK Float: 00:00:22.6961713
+[12:59:55] Time to RTK Fixed: 00:00:27.8837337
+[12:59:55] Resetting for fix test.
+[13:00:20] Time to RTK Float: 00:00:24.9408744
+[13:00:25] Time to RTK Fixed: 00:00:30.0068467
+[13:00:25] Resetting for fix test.
+[13:00:50] Time to RTK Float: 00:00:24.6978976
+[13:00:56] Time to RTK Fixed: 00:00:30.8240018
+[13:00:56] Resetting for fix test.
+[13:01:21] Time to RTK Float: 00:00:24.5094742
+[13:01:25] Time to RTK Fixed: 00:00:28.5426020
+[13:01:25] Resetting for fix test.
+[13:01:50] Time to RTK Float: 00:00:25.6692178
+[13:01:56] Time to RTK Fixed: 00:00:30.8586953
+[13:01:56] Resetting for fix test.
+[13:02:20] Time to RTK Float: 00:00:24.8535898
+[13:02:26] Time to RTK Fixed: 00:00:30.1026199
+[13:02:26] Resetting for fix test.
+[13:02:51] Time to RTK Float: 00:00:24.9387323
+[13:02:55] Time to RTK Fixed: 00:00:29.1263467
+[13:02:55] Resetting for fix test.
+[13:03:21] Time to RTK Float: 00:00:25.9326616
+[13:03:26] Time to RTK Fixed: 00:00:31.0601378
+[13:03:26] Resetting for fix test.
+[13:03:50] Time to RTK Float: 00:00:23.8773061
+[13:03:53] Time to RTK Fixed: 00:00:27.0015736
+[13:03:53] Resetting for fix test.
+[13:04:20] Time to RTK Float: 00:00:27.1233487
+[13:04:27] Time to RTK Fixed: 00:00:34.3741075
+[13:04:27] Resetting for fix test.
+[13:04:50] Time to RTK Float: 00:00:22.6867611
+[13:04:55] Time to RTK Fixed: 00:00:27.8743441
+[13:04:55] Resetting for fix test.
+[13:05:20] Time to RTK Float: 00:00:25.0004872
+[13:05:30] Time to RTK Fixed: 00:00:34.5607408
+[13:05:30] Resetting for fix test.
+[13:05:50] Time to RTK Float: 00:00:20.7466884
+[13:05:57] Time to RTK Fixed: 00:00:26.9336962
+[13:05:57] Resetting for fix test.
+[13:06:19] Time to RTK Float: 00:00:22.8113265
+[13:06:27] Time to RTK Fixed: 00:00:29.9999562
+[13:06:27] Resetting for fix test.
+[13:06:51] Time to RTK Float: 00:00:23.9525759
+[13:06:55] Time to RTK Fixed: 00:00:28.1864180
+[13:06:55] Resetting for fix test.
+[13:07:20] Time to RTK Float: 00:00:25.0771710
+[13:07:25] Time to RTK Fixed: 00:00:30.2486089
+[13:07:25] Resetting for fix test.
+[13:07:50] Time to RTK Float: 00:00:24.8101165
+[13:07:54] Time to RTK Fixed: 00:00:28.9348338
+[13:07:54] Resetting for fix test.
+[13:08:20] Time to RTK Float: 00:00:26.3096302
+[13:08:26] Time to RTK Fixed: 00:00:31.5594671
+[13:08:26] Resetting for fix test.
+[13:08:51] Time to RTK Float: 00:00:25.0019963
+[13:08:56] Time to RTK Fixed: 00:00:30.1893310
+[13:08:56] Resetting for fix test.
+[13:09:21] Time to RTK Float: 00:00:24.9366358
+[13:09:28] Time to RTK Fixed: 00:00:32.3725489
+[13:09:28] Resetting for fix test.
+[13:09:50] Time to RTK Float: 00:00:21.7500721
+[13:09:57] Time to RTK Fixed: 00:00:29.0612789
+[13:09:57] Resetting for fix test.
+[13:10:20] Time to RTK Float: 00:00:23.1213648
+[13:10:28] Time to RTK Fixed: 00:00:30.3710300
+[13:10:28] Resetting for fix test.
+[13:10:50] Time to RTK Float: 00:00:22.6899436
+[13:10:58] Time to RTK Fixed: 00:00:29.9390916
+[13:10:58] Resetting for fix test.
+[13:11:20] Time to RTK Float: 00:00:22.9358590
+[13:11:28] Time to RTK Fixed: 00:00:30.2482354
+[13:11:28] Resetting for fix test.
+[13:11:51] Time to RTK Float: 00:00:22.9378697
+[13:11:59] Time to RTK Fixed: 00:00:31.3121413
+[13:11:59] Resetting for fix test.
+[13:12:21] Time to RTK Float: 00:00:21.6899124
+[13:12:29] Time to RTK Fixed: 00:00:30.0026769
+[13:12:29] Resetting for fix test.
+[13:12:50] Time to RTK Float: 00:00:20.8697336
+[13:13:00] Time to RTK Fixed: 00:00:31.2914081
+[13:13:00] Resetting for fix test.
+[13:13:20] Time to RTK Float: 00:00:19.6245319
+[13:13:29] Time to RTK Fixed: 00:00:28.8632124
+[13:13:29] Resetting for fix test.
+[13:13:50] Time to RTK Float: 00:00:20.5720156
+[13:13:55] Time to RTK Fixed: 00:00:25.6349605
+[13:13:55] Resetting for fix test.
+[13:14:20] Time to RTK Float: 00:00:24.9393224
+[13:14:21] Time to RTK Fixed: 00:00:26.0022705
+[13:14:21] Resetting for fix test.
+[13:14:50] Time to RTK Float: 00:00:29.0252593
+[13:14:57] Time to RTK Fixed: 00:00:36.2131895
+[13:14:57] Resetting for fix test.
+[13:15:21] Time to RTK Float: 00:00:23.7696939
+[13:15:26] Time to RTK Fixed: 00:00:28.9112993
+[13:15:26] Resetting for fix test.
+[13:15:50] Time to RTK Float: 00:00:23.8351467
+[13:15:52] Time to RTK Fixed: 00:00:25.8831122
+[13:15:52] Resetting for fix test.
+[13:16:21] Time to RTK Float: 00:00:28.7436169
+[13:16:36] Time to RTK Fixed: 00:00:44.5066661
+[13:16:36] Resetting for fix test.
+[13:16:51] Time to RTK Float: 00:00:14.4583081
+[13:16:55] Time to RTK Fixed: 00:00:18.6458771
+[13:16:55] Resetting for fix test.
+[13:17:21] Time to RTK Float: 00:00:25.6333073
+[13:17:30] Time to RTK Fixed: 00:00:34.8075177
+[13:17:30] Resetting for fix test.
+[13:17:50] Time to RTK Float: 00:00:20.5822211
+[13:18:00] Time to RTK Fixed: 00:00:30.0195886
+[13:18:00] Resetting for fix test.
+[13:18:20] Time to RTK Float: 00:00:20.5643874
+[13:32:21] Time to RTK Fixed: 00:14:21.5194686
+[13:32:21] Resetting for fix test.
+[13:32:49] Time to RTK Float: 00:00:27.9365953
+[13:32:59] Time to RTK Fixed: 00:00:37.2518138
+[13:32:59] Resetting for fix test.
+[13:33:20] Time to RTK Float: 00:00:21.7519031
+[13:33:32] Time to RTK Fixed: 00:00:32.9427079
+[13:33:32] Resetting for fix test.
+[13:33:50] Time to RTK Float: 00:00:18.7403603
+[13:34:03] Time to RTK Fixed: 00:00:30.9921926
+[13:34:03] Resetting for fix test.
+[13:34:20] Time to RTK Float: 00:00:17.8738507
+[13:34:31] Time to RTK Fixed: 00:00:28.3738708
+[13:34:31] Resetting for fix test.
+[13:34:51] Time to RTK Float: 00:00:19.6970941
+[13:35:01] Time to RTK Fixed: 00:00:30.1341709
+[13:35:01] Resetting for fix test.
+[13:35:20] Time to RTK Float: 00:00:18.8894867
+[13:35:32] Time to RTK Fixed: 00:00:31.3892178
+[13:35:32] Resetting for fix test.
+[13:35:50] Time to RTK Float: 00:00:17.6883548
+[13:36:02] Time to RTK Fixed: 00:00:29.2490749
+[13:36:02] Resetting for fix test.
+[13:36:20] Time to RTK Float: 00:00:18.6866716
+[13:36:31] Time to RTK Fixed: 00:00:29.1700768
+[13:36:31] Resetting for fix test.
+[13:36:51] Time to RTK Float: 00:00:19.7662609
+[13:37:01] Time to RTK Fixed: 00:00:30.2026075
+[13:37:01] Resetting for fix test.
+[13:37:20] Time to RTK Float: 00:00:18.7648092
+[13:37:32] Time to RTK Fixed: 00:00:31.3108240
+[13:37:32] Resetting for fix test.
+[13:37:50] Time to RTK Float: 00:00:17.5630483
+[13:38:03] Time to RTK Fixed: 00:00:30.1245766
+[13:38:03] Resetting for fix test.
+[13:38:20] Time to RTK Float: 00:00:17.4981345
+[13:38:31] Time to RTK Fixed: 00:00:28.9357257
+[13:38:31] Resetting for fix test.
+[13:38:50] Time to RTK Float: 00:00:18.5001557
+[13:39:03] Time to RTK Fixed: 00:00:31.1234208
+[13:39:03] Resetting for fix test.
+[13:39:21] Time to RTK Float: 00:00:17.9345655
+[13:39:33] Time to RTK Fixed: 00:00:30.3706675
+[13:39:33] Resetting for fix test.
+[13:39:51] Time to RTK Float: 00:00:17.8150420
+[13:40:03] Time to RTK Fixed: 00:00:30.2531244
+[13:40:03] Resetting for fix test.
+[13:40:20] Time to RTK Float: 00:00:16.4383084
+[13:40:31] Time to RTK Fixed: 00:00:27.9380732
+[13:40:31] Resetting for fix test.
+[13:40:50] Time to RTK Float: 00:00:18.9474637
+[13:41:57] Time to RTK Fixed: 00:01:25.6017341
+[13:41:57] Resetting for fix test.
+[13:42:20] Time to RTK Float: 00:00:23.0627399
+[13:42:26] Time to RTK Fixed: 00:00:29.4363597
+[13:42:26] Resetting for fix test.
+[13:42:50] Time to RTK Float: 00:00:23.9982818
+[13:42:55] Time to RTK Fixed: 00:00:29.2477269
+[13:42:55] Resetting for fix test.
+[13:43:21] Time to RTK Float: 00:00:25.1831801
+[13:43:31] Time to RTK Fixed: 00:00:35.7428020
+[13:43:31] Resetting for fix test.
+[13:43:50] Time to RTK Float: 00:00:18.8342183
+[13:44:07] Time to RTK Fixed: 00:00:35.7690803
+[13:44:07] Resetting for fix test.
+[13:44:19] Time to RTK Float: 00:00:12.4394715
+[13:44:28] Time to RTK Fixed: 00:00:20.5656824
+[13:44:28] Resetting for fix test.
+[13:44:50] Time to RTK Float: 00:00:22.8082248
+[13:44:55] Time to RTK Fixed: 00:00:27.0572574
+[13:44:55] Resetting for fix test.
+[13:45:19] Time to RTK Float: 00:00:24.8755611
+[13:45:22] Time to RTK Fixed: 00:00:27.0001373
+[13:45:22] Resetting for fix test.
+[13:45:50] Time to RTK Float: 00:00:28.0756733
+[13:46:00] Time to RTK Fixed: 00:00:38.5738909
+[13:46:00] Resetting for fix test.
+[13:46:20] Time to RTK Float: 00:00:19.7950692
+[13:46:32] Time to RTK Fixed: 00:00:32.1121788
+[13:46:32] Resetting for fix test.
+[13:46:49] Time to RTK Float: 00:00:16.6260776
+[13:47:02] Time to RTK Fixed: 00:00:29.2612941
+[13:47:02] Resetting for fix test.
+[13:47:20] Time to RTK Float: 00:00:17.9959807
+[13:47:31] Time to RTK Fixed: 00:00:29.5098024
+[13:47:31] Resetting for fix test.
+[13:47:49] Time to RTK Float: 00:00:18.1733491
+[13:47:52] Time to RTK Fixed: 00:00:21.3004136
+[13:47:52] Resetting for fix test.
+[13:48:20] Time to RTK Float: 00:00:27.8519942
+[13:48:33] Time to RTK Fixed: 00:00:40.2989816
+[13:48:33] Resetting for fix test.
+[13:48:50] Time to RTK Float: 00:00:17.7502962
+[13:49:25] Time to RTK Fixed: 00:00:52.8528312
+[13:49:25] Resetting for fix test.
+[13:49:50] Time to RTK Float: 00:00:24.9411188
+[13:50:28] Time to RTK Fixed: 00:01:02.5610034
+[13:50:28] Resetting for fix test.
+[13:50:49] Time to RTK Float: 00:00:20.8287552
+[13:50:55] Time to RTK Fixed: 00:00:27.1245184
+[13:50:55] Resetting for fix test.
+[13:51:19] Time to RTK Float: 00:00:24.2463730
+[13:51:59] Time to RTK Fixed: 00:01:03.7912771
+[13:51:59] Resetting for fix test.
+[13:52:19] Time to RTK Float: 00:00:19.9193318
+[13:52:56] Time to RTK Fixed: 00:00:56.5563978
+[13:52:56] Resetting for fix test.
+[13:53:21] Time to RTK Float: 00:00:25.1850634
+[13:53:23] Time to RTK Fixed: 00:00:27.3560612
+[13:53:23] Resetting for fix test.
+[13:53:51] Time to RTK Float: 00:00:27.9027872
+[13:53:53] Time to RTK Fixed: 00:00:29.9148434
+[13:53:53] Resetting for fix test.
+[13:54:20] Time to RTK Float: 00:00:27.0375091
+[13:54:27] Time to RTK Fixed: 00:00:34.2874504
+[13:54:27] Resetting for fix test.
+[13:54:51] Time to RTK Float: 00:00:23.5075212
+[13:54:54] Time to RTK Fixed: 00:00:26.5420997
+[13:54:54] Resetting for fix test.
+[13:55:20] Time to RTK Float: 00:00:26.6496979
+[13:55:29] Time to RTK Fixed: 00:00:34.9132014
+[13:55:29] Resetting for fix test.
+[13:55:50] Time to RTK Float: 00:00:21.6317414
+[13:55:59] Time to RTK Fixed: 00:00:30.9340459
+[13:55:59] Resetting for fix test.
+[13:56:20] Time to RTK Float: 00:00:20.7027107
+[13:56:31] Time to RTK Fixed: 00:00:31.1395073
+[13:56:31] Resetting for fix test.
+[13:56:50] Time to RTK Float: 00:00:19.8732975
+[13:56:59] Time to RTK Fixed: 00:00:28.3097555
+[13:56:59] Resetting for fix test.
+[13:57:21] Time to RTK Float: 00:00:21.9044897
+[13:57:29] Time to RTK Fixed: 00:00:30.3418991
+[13:57:29] Resetting for fix test.
+[13:57:50] Time to RTK Float: 00:00:20.6485083
+[13:58:00] Time to RTK Fixed: 00:00:30.8386690
+[13:58:00] Resetting for fix test.
+[13:58:21] Time to RTK Float: 00:00:20.6278102
+[13:58:30] Time to RTK Fixed: 00:00:29.8190249
+[13:58:30] Resetting for fix test.
+[13:58:50] Time to RTK Float: 00:00:20.5663022
+[13:59:03] Time to RTK Fixed: 00:00:32.8824549
+[13:59:03] Resetting for fix test.
+[13:59:20] Time to RTK Float: 00:00:17.5014759
+[13:59:33] Time to RTK Fixed: 00:00:29.8166652
+[13:59:33] Resetting for fix test.
+[13:59:50] Time to RTK Float: 00:00:17.3767174
+[13:59:56] Time to RTK Fixed: 00:00:23.5646054
+[13:59:56] Resetting for fix test.
+[14:00:20] Time to RTK Float: 00:00:24.1855178
+[14:00:32] Time to RTK Fixed: 00:00:35.5599984
+[14:00:32] Resetting for fix test.
+[14:00:50] Time to RTK Float: 00:00:18.5638005
+[14:01:00] Time to RTK Fixed: 00:00:27.8758225
+[14:01:00] Resetting for fix test.
+[14:01:19] Time to RTK Float: 00:00:19.3806738
+[14:01:39] Time to RTK Fixed: 00:00:38.9448225
+[14:01:39] Resetting for fix test.
+[14:01:50] Time to RTK Float: 00:00:11.4398991
+[14:02:23] Time to RTK Fixed: 00:00:44.3214051
+[14:02:23] Resetting for fix test.
+[14:02:50] Time to RTK Float: 00:00:27.0670447
+[14:02:55] Time to RTK Fixed: 00:00:32.1930360
+[14:02:55] Resetting for fix test.
+[14:03:20] Time to RTK Float: 00:00:24.8815080
+[14:03:24] Time to RTK Fixed: 00:00:28.8846898
+[14:03:24] Resetting for fix test.
+[14:03:51] Time to RTK Float: 00:00:26.8467713
+[14:03:52] Time to RTK Fixed: 00:00:27.9242770
+[14:03:52] Resetting for fix test.
+[14:04:22] Time to RTK Float: 00:00:30.4823155
+[14:04:24] Time to RTK Fixed: 00:00:32.6068154
+[14:04:24] Resetting for fix test.
+[14:04:50] Time to RTK Float: 00:00:25.4009435
+[14:04:52] Time to RTK Fixed: 00:00:27.4945771
+[14:04:52] Resetting for fix test.
+[14:05:20] Time to RTK Float: 00:00:28.4945350
+[14:05:29] Time to RTK Fixed: 00:00:36.7445462
+[14:05:29] Resetting for fix test.
+[14:05:51] Time to RTK Float: 00:00:21.7953117
+[14:05:54] Time to RTK Fixed: 00:00:24.9818724
+[14:05:54] Resetting for fix test.
+[14:06:21] Time to RTK Float: 00:00:27.0156432
+[14:06:23] Time to RTK Fixed: 00:00:29.1710604
+[14:06:23] Resetting for fix test.
+[14:06:50] Time to RTK Float: 00:00:27.1538528
+[14:06:52] Time to RTK Fixed: 00:00:29.2786422
+[14:06:52] Resetting for fix test.
+[14:07:21] Time to RTK Float: 00:00:28.3702554
+[14:07:23] Time to RTK Fixed: 00:00:30.4947648
+[14:07:23] Resetting for fix test.
+[14:07:50] Time to RTK Float: 00:00:27.3723154
+[14:07:59] Time to RTK Fixed: 00:00:35.8703215
+[14:07:59] Resetting for fix test.
+[14:08:20] Time to RTK Float: 00:00:21.7015804
+[14:08:22] Time to RTK Fixed: 00:00:23.7030345
+[14:08:22] Resetting for fix test.
+[14:08:50] Time to RTK Float: 00:00:28.2038513
+[14:08:55] Time to RTK Fixed: 00:00:32.3907216
+[14:08:55] Resetting for fix test.
+[14:09:20] Time to RTK Float: 00:00:25.8149410
+[14:09:22] Time to RTK Fixed: 00:00:27.8774220
+[14:09:22] Resetting for fix test.
+[14:09:50] Time to RTK Float: 00:00:27.6922544
+[14:09:58] Time to RTK Fixed: 00:00:36.0078206
+[14:09:58] Resetting for fix test.
+[14:10:20] Time to RTK Float: 00:00:21.8725567
+[14:10:24] Time to RTK Fixed: 00:00:25.0594944
+[14:10:24] Resetting for fix test.
+[14:10:50] Time to RTK Float: 00:00:26.7519209
+[14:10:53] Time to RTK Fixed: 00:00:29.8767126
+[14:10:53] Resetting for fix test.
+[14:11:20] Time to RTK Float: 00:00:26.4743561
+[14:12:02] Time to RTK Fixed: 00:01:08.4219287
+[14:12:02] Resetting for fix test.
+[14:12:20] Time to RTK Float: 00:00:17.9970130
+[14:12:24] Time to RTK Fixed: 00:00:22.1684620
+[14:12:24] Resetting for fix test.
+[14:12:50] Time to RTK Float: 00:00:26.1208880
+[14:12:59] Time to RTK Fixed: 00:00:34.5566897
+[14:12:59] Resetting for fix test.
+[14:13:20] Time to RTK Float: 00:00:21.4758365
+[14:13:28] Time to RTK Fixed: 00:00:29.6661427
+[14:13:28] Resetting for fix test.
+[14:13:50] Time to RTK Float: 00:00:21.6327480
+[14:13:58] Time to RTK Fixed: 00:00:29.8829351
+[14:13:58] Resetting for fix test.
+[14:14:21] Time to RTK Float: 00:00:22.5699263
+[14:14:57] Time to RTK Fixed: 00:00:58.8851351
+[14:14:57] Resetting for fix test.
+[14:15:21] Time to RTK Float: 00:00:23.5061940
+[14:16:56] Time to RTK Fixed: 00:01:59.3795296
+[14:16:56] Resetting for fix test.
+[14:17:20] Time to RTK Float: 00:00:23.9997162
+[14:18:55] Time to RTK Fixed: 00:01:59.0002245
+[14:18:55] Resetting for fix test.
+[14:19:20] Time to RTK Float: 00:00:25.0585031
+[14:19:25] Time to RTK Fixed: 00:00:29.3075031
+[14:19:25] Resetting for fix test.
+[14:19:50] Time to RTK Float: 00:00:25.2458000
+[14:19:55] Time to RTK Fixed: 00:00:30.4945856
+[14:19:55] Resetting for fix test.
+[14:20:21] Time to RTK Float: 00:00:25.4941755
+[14:20:26] Time to RTK Fixed: 00:00:30.7436120
+[14:20:26] Resetting for fix test.
+[14:20:50] Time to RTK Float: 00:00:23.8611355
+[14:21:31] Time to RTK Fixed: 00:01:04.7786243
+[14:21:31] Resetting for fix test.
+[14:21:50] Time to RTK Float: 00:00:19.7640575
+[14:21:57] Time to RTK Fixed: 00:00:26.1840255
+[14:21:57] Resetting for fix test.
+[14:22:20] Time to RTK Float: 00:00:22.9977495
+[14:22:27] Time to RTK Fixed: 00:00:30.1390852
+[14:22:27] Resetting for fix test.
+[14:22:50] Time to RTK Float: 00:00:22.9358290
+[14:22:58] Time to RTK Fixed: 00:00:31.3109479
+[14:22:58] Resetting for fix test.
+[14:23:20] Time to RTK Float: 00:00:21.9957090
+[14:23:28] Time to RTK Fixed: 00:00:29.4314343
+[14:23:28] Resetting for fix test.
+[14:23:51] Time to RTK Float: 00:00:22.8416936
+[14:23:58] Time to RTK Fixed: 00:00:29.9859614
+[14:23:58] Resetting for fix test.
+[14:24:21] Time to RTK Float: 00:00:22.7528321
+[14:24:28] Time to RTK Fixed: 00:00:30.0650959
+[14:24:28] Resetting for fix test.
+[14:24:51] Time to RTK Float: 00:00:22.6897497
+[14:24:55] Time to RTK Fixed: 00:00:26.9388662
+[14:24:55] Resetting for fix test.
+[14:25:20] Time to RTK Float: 00:00:25.5071144
+[14:25:28] Time to RTK Fixed: 00:00:32.7574727
+[14:25:28] Resetting for fix test.
+[14:25:50] Time to RTK Float: 00:00:22.3806823
+[14:25:59] Time to RTK Fixed: 00:00:31.6324496
+[14:25:59] Resetting for fix test.
+[14:26:20] Time to RTK Float: 00:00:20.8762361
+[14:26:28] Time to RTK Fixed: 00:00:29.2506918
+[14:26:28] Resetting for fix test.
+[14:26:50] Time to RTK Float: 00:00:21.6307891
+[14:26:58] Time to RTK Fixed: 00:00:29.8830490
+[14:26:58] Resetting for fix test.
+[14:27:20] Time to RTK Float: 00:00:22.0282176
+[14:27:29] Time to RTK Fixed: 00:00:30.5262069
+[14:27:29] Resetting for fix test.
+[14:27:50] Time to RTK Float: 00:00:21.0745289
+[14:27:58] Time to RTK Fixed: 00:00:29.4950089
+[14:27:58] Resetting for fix test.
+[14:28:20] Time to RTK Float: 00:00:21.8748137
+[14:28:28] Time to RTK Fixed: 00:00:29.2486676
+[14:28:28] Resetting for fix test.
+[14:28:51] Time to RTK Float: 00:00:22.9977486
+[14:28:54] Time to RTK Fixed: 00:00:26.1222845
+[14:28:54] Resetting for fix test.
+[14:29:20] Time to RTK Float: 00:00:26.2451539
+[14:29:29] Time to RTK Fixed: 00:00:35.6196081
+[14:29:29] Resetting for fix test.
+[14:29:50] Time to RTK Float: 00:00:21.0602792
+[14:29:53] Time to RTK Fixed: 00:00:24.1848337
+[14:29:53] Resetting for fix test.
+[14:30:20] Time to RTK Float: 00:00:26.3855367
+[14:30:43] Time to RTK Fixed: 00:00:49.3971536
+[14:30:43] Resetting for fix test.
+[14:30:51] Time to RTK Float: 00:00:08.2194177
+[14:31:24] Time to RTK Fixed: 00:00:41.3108515
+[14:31:24] Resetting for fix test.
+[14:31:50] Time to RTK Float: 00:00:26.0308313
+[14:31:56] Time to RTK Fixed: 00:00:32.2799152
+[14:31:56] Resetting for fix test.
+[14:32:22] Time to RTK Float: 00:00:25.2460533
+[14:32:46] Time to RTK Fixed: 00:00:49.3981285
+[14:32:46] Resetting for fix test.
+[14:33:20] Time to RTK Float: 00:00:34.2785087
+[14:33:46] Time to RTK Fixed: 00:01:00.4160132
+[14:33:46] Resetting for fix test.
+[14:34:20] Time to RTK Float: 00:00:34.0211732
+[14:34:28] Time to RTK Fixed: 00:00:41.3336409
+[14:34:28] Resetting for fix test.
+[14:34:50] Time to RTK Float: 00:00:22.5074327
+[14:34:57] Time to RTK Fixed: 00:00:29.6982462
+[14:34:57] Resetting for fix test.
+[14:35:20] Time to RTK Float: 00:00:22.8163252
+[14:35:23] Time to RTK Fixed: 00:00:25.9411057
+[14:35:23] Resetting for fix test.
+[14:35:50] Time to RTK Float: 00:00:27.0020097
+[14:35:57] Time to RTK Fixed: 00:00:34.1904675
+[14:35:57] Resetting for fix test.
+[14:36:20] Time to RTK Float: 00:00:22.6922539
+[14:36:23] Time to RTK Fixed: 00:00:25.8180715
+[14:36:23] Resetting for fix test.
+[14:36:50] Time to RTK Float: 00:00:26.8476823
+[14:36:58] Time to RTK Fixed: 00:00:34.2835200
+[14:36:58] Resetting for fix test.
+[14:37:21] Time to RTK Float: 00:00:23.1829832
+[14:37:27] Time to RTK Fixed: 00:00:29.4939971
+[14:37:27] Resetting for fix test.
+[14:37:50] Time to RTK Float: 00:00:23.3083371
+[14:37:53] Time to RTK Fixed: 00:00:26.4325920
+[14:37:53] Resetting for fix test.
+[14:38:21] Time to RTK Float: 00:00:27.1375073
+[14:40:00] Time to RTK Fixed: 00:02:06.3408395
+[14:40:00] Resetting for fix test.
+[14:40:20] Time to RTK Float: 00:00:20.4562881
+[14:40:27] Time to RTK Fixed: 00:00:26.7677601
+[14:40:27] Resetting for fix test.
+[14:40:50] Time to RTK Float: 00:00:23.6295632
+[14:40:52] Time to RTK Fixed: 00:00:25.6920660
+[14:40:52] Resetting for fix test.
+[14:41:20] Time to RTK Float: 00:00:27.9383078
+[14:41:23] Time to RTK Fixed: 00:00:31.0021719
+[14:41:23] Resetting for fix test.
+[14:41:50] Time to RTK Float: 00:00:26.8807193
+[14:41:52] Time to RTK Fixed: 00:00:28.9437481
+[14:41:52] Resetting for fix test.
+[14:42:20] Time to RTK Float: 00:00:27.6844517
+[14:42:22] Time to RTK Fixed: 00:00:29.7485205
+[14:42:22] Resetting for fix test.
+[14:42:50] Time to RTK Float: 00:00:28.0014375
+[14:42:52] Time to RTK Fixed: 00:00:30.0639760
+[14:42:52] Resetting for fix test.
+[14:43:20] Time to RTK Float: 00:00:28.1713438
+[14:44:28] Time to RTK Fixed: 00:01:35.7839424
+[14:44:28] Resetting for fix test.
+[14:44:51] Time to RTK Float: 00:00:22.8453730
+[14:46:57] Time to RTK Fixed: 00:02:28.9424199
+[14:46:57] Resetting for fix test.
+[14:47:20] Time to RTK Float: 00:00:23.1369167
+[14:47:29] Time to RTK Fixed: 00:00:32.6206646
+[14:47:29] Resetting for fix test.
+[14:47:50] Time to RTK Float: 00:00:21.0750081
+[14:47:54] Time to RTK Fixed: 00:00:24.1997327
+[14:47:54] Resetting for fix test.
+[14:48:21] Time to RTK Float: 00:00:27.2322283
+[14:48:23] Time to RTK Fixed: 00:00:29.3258036
+[14:48:23] Resetting for fix test.
+[14:48:50] Time to RTK Float: 00:00:27.2163202
+[14:48:55] Time to RTK Fixed: 00:00:32.5275692
+[14:48:55] Resetting for fix test.
+[14:49:21] Time to RTK Float: 00:00:25.1834216
+[14:49:24] Time to RTK Fixed: 00:00:28.3076565
+[14:49:24] Resetting for fix test.
+[14:49:51] Time to RTK Float: 00:00:27.1534516
+[14:49:52] Time to RTK Fixed: 00:00:28.1848248
+[14:49:52] Resetting for fix test.
+[14:50:20] Time to RTK Float: 00:00:28.1234450
+[14:50:23] Time to RTK Fixed: 00:00:31.3106504
+[14:50:23] Resetting for fix test.
+[14:50:51] Time to RTK Float: 00:00:27.3097008
+[14:50:54] Time to RTK Fixed: 00:00:30.4964859
+[14:50:54] Resetting for fix test.
+[14:51:20] Time to RTK Float: 00:00:26.1858190
+[14:51:23] Time to RTK Fixed: 00:00:29.3106826
+[14:51:23] Resetting for fix test.
+[14:51:50] Time to RTK Float: 00:00:27.3082296
+[14:51:59] Time to RTK Fixed: 00:00:35.6198244
+[14:51:59] Resetting for fix test.
+[14:52:21] Time to RTK Float: 00:00:22.1209252
+[14:52:24] Time to RTK Fixed: 00:00:25.1825766
+[14:52:24] Resetting for fix test.
+[14:52:51] Time to RTK Float: 00:00:27.0289404
+[14:52:52] Time to RTK Fixed: 00:00:28.0602949
+[14:52:52] Resetting for fix test.
+[14:53:21] Time to RTK Float: 00:00:28.6200285
+[14:53:23] Time to RTK Fixed: 00:00:30.7445682
+[14:53:23] Resetting for fix test.
+[14:53:50] Time to RTK Float: 00:00:27.2760612
+[14:53:52] Time to RTK Fixed: 00:00:29.3081247
+[14:53:52] Resetting for fix test.
+[14:54:20] Time to RTK Float: 00:00:27.8876963
+[14:54:22] Time to RTK Fixed: 00:00:29.9814664
+[14:54:22] Resetting for fix test.
+[14:54:50] Time to RTK Float: 00:00:28.2958882

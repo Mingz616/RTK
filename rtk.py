@@ -1,6 +1,6 @@
 """
     > File Name:     RTK Performance Analysis Tool
-    > Version:       V6.3
+    > Version:       V6.4
     > Author:        Ming
     > Mail:          
     > Created Time:  June 6th, 2024
@@ -12,7 +12,7 @@ import argparse
 
 def get_version():
     """Version Display"""
-    return '6.3'
+    return '6.4'
 
 def check_file_path(filepath):
     """
@@ -200,11 +200,11 @@ def calcAvg(type, count_time):
     avg = (sum-min-max)/(count_time-2)
 
     with open(log_path, 'a', encoding='utf-8') as file:
-        file.write(type               +   " Statistcs: \t"    +   file_name   +   "\n")
-        file.write('\tConverged: \t'  +   str(count_time)     +   "times\n")
-        file.write("\tMin: \t\t"      +   format(min, '.2f')  +   "s\n")
-        file.write("\tMax: \t\t"      +   format(max, '.2f')  +   "s\n")
-        file.write("\tAverage: \t"    +   format(avg, '.2f')  +   "s\n")
+        file.write(type               +   " Statistics: \t"    +   file_name   +   "\n")
+        file.write('\tConverged: \t'  +   str(count_time)     +   "\ttimes\n")
+        file.write("\tMin: \t\t"      +   format(min, '.2f')  +   "\ts\n")
+        file.write("\tMax: \t\t"      +   format(max, '.2f')  +   "\ts\n")
+        file.write("\tAverage: \t"    +   format(avg, '.2f')  +   "\ts\n")
         file.write("\n")
 
     print(type, " Statistcs: \t", file_name, "\n",

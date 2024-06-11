@@ -1,6 +1,6 @@
 """
     > File Name:     RTK Performance Analysis Tool
-    > Version:       V6.2
+    > Version:       V6.3
     > Author:        Ming
     > Mail:          
     > Created Time:  June 6th, 2024
@@ -12,7 +12,7 @@ import argparse
 
 def get_version():
     """Version Display"""
-    return '6.2'
+    return '6.3'
 
 def check_file_path(filepath):
     """
@@ -42,18 +42,21 @@ def str_to_seconds(time_str):
     
 def conv_12to24(time_str):
     pd = time_str.split(' ')
-    if(pd[1] == "PM,"):
-        hr = int(pd[0][0:1])
+    if(pd[1] == "PM," and pd[0][0:2]!="12"):
+        # print("Afternoon")
+        # print("12 o'clock")
+        hr = int(pd[0][0:1]) + 12
         min = int(pd[0][2:4])
-        sec = int(pd[0][6:8])
+        sec = int(pd[0][5:7])            
         # print("Test: ", hr, min, sec)
-        return hr+12, min, sec
     else:
+        # print("Morning")
         hr = int(pd[0][0:2])
         min = int(pd[0][3:5])
         sec = int(pd[0][6:8])
         # print("Test: ", hr, min, sec)
-        return hr, min, sec
+        
+    return hr, min, sec
 
 def calc_period(start_time_str, end_time_str):
     """
@@ -70,15 +73,15 @@ def calc_period(start_time_str, end_time_str):
         # Separte morning or afternoon
         start_hr, start_min, start_sec = conv_12to24(start_time_str)
         end_hr, end_min, end_sec = conv_12to24(end_time_str)
-
+        
+        # Convert to new time
+        format = '%H:%M:%S'
+        start_time = datetime.datetime.strptime(str(start_hr)+":"+str(start_min)+":"+str(start_sec), format)
+        end_time = datetime.datetime.strptime(str(end_hr)+":"+str(end_min)+":"+str(end_sec), format)
+        
         # Calc period
-        hr = end_hr - start_hr
-        min = end_min - start_min
-        sec = end_sec - start_sec
-
-        # Organize time frame
-        period = datetime.time(hour=hr, minute=min, second=sec)
-        # print("\nTest start time: ", period,  '\n')
+        period = end_time - start_time
+        # print("Test: ", period)
 
         return period
     except ValueError:

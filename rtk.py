@@ -1,6 +1,6 @@
 """
     > File Name:     RTK Performance Analysis Tool
-    > Version:       V6.1
+    > Version:       V6.2
     > Author:        Ming
     > Mail:          
     > Created Time:  June 6th, 2024
@@ -12,7 +12,7 @@ import argparse
 
 def get_version():
     """Version Display"""
-    return '6.1'
+    return '6.2'
 
 def check_file_path(filepath):
     """
@@ -36,7 +36,6 @@ def str_to_seconds(time_str):
     try:
         dt = datetime.datetime.strptime(time_str, "%H:%M:%S.%f")
         second = (dt-datetime.datetime(1900,1,1)).total_seconds()
-        # print(second)
         return second
     except ValueError:
         return None
@@ -44,14 +43,16 @@ def str_to_seconds(time_str):
 def conv_12to24(time_str):
     pd = time_str.split(' ')
     if(pd[1] == "PM,"):
-        hr = int(pd[0][0])
+        hr = int(pd[0][0:1])
         min = int(pd[0][2:4])
-        sec = int(pd[0][5:7])
+        sec = int(pd[0][6:8])
+        # print("Test: ", hr, min, sec)
         return hr+12, min, sec
     else:
         hr = int(pd[0][0:2])
-        min = int(pd[0][2:5])
-        sec = int(pd[0][5:8])
+        min = int(pd[0][3:5])
+        sec = int(pd[0][6:8])
+        # print("Test: ", hr, min, sec)
         return hr, min, sec
 
 def calc_period(start_time_str, end_time_str):
@@ -131,6 +132,7 @@ def sort_RTK_file(RTK_file):
             float_count += 1
             line = line.split(' ')      # Splite the string to list
             time = (line[-1])           # Time is the last one in the list
+
             float_time += str_to_seconds(time[:-2]) # -2 is to short 1-bit of the milliseconds
             # Save the float time to the file
             with open(float_path, 'a', encoding='utf-8') as file_a:
@@ -152,7 +154,7 @@ def sort_RTK_file(RTK_file):
     with open(log_path, 'w', encoding='utf-8') as file:         # Add RTK test period into the file
         file.write("RTK Period: \t\t" + str(diff) + " hours\n")
 
-    print("RTK Rough Average \n")       # This average doesn't rull out the maximum and minimum value
+    print("RTK Rough Average")       # This average doesn't rull out the maximum and minimum value
     # print("Float Time: ", float_count)
     # print("Float: ", format(float_time, '.2f'), "s")
     print("Float Average: ", format(float_time/float_count, '.2f'), "s")

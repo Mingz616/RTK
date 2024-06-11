@@ -1,19 +1,18 @@
 """
     > File Name:     RTK Performance Analysis Tool
-    > Version:       V6.0
+    > Version:       V6.1
     > Author:        Ming
     > Mail:          
     > Created Time:  June 6th, 2024
 """
 
 import os
-import time
 import datetime
 import argparse
 
 def get_version():
     """Version Display"""
-    return '6.0'
+    return '6.1'
 
 def check_file_path(filepath):
     """
@@ -44,12 +43,15 @@ def str_to_seconds(time_str):
     
 def conv_12to24(time_str):
     pd = time_str.split(' ')
-    hr = int(pd[0][0])
-    min = int(pd[0][2:4])
-    sec = int(pd[0][5:7])
     if(pd[1] == "PM,"):
+        hr = int(pd[0][0])
+        min = int(pd[0][2:4])
+        sec = int(pd[0][5:7])
         return hr+12, min, sec
     else:
+        hr = int(pd[0][0:2])
+        min = int(pd[0][2:5])
+        sec = int(pd[0][5:8])
         return hr, min, sec
 
 def calc_period(start_time_str, end_time_str):

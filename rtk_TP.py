@@ -1,6 +1,6 @@
 """
     > File Name:     RTK Performance Analysis Tool
-    > Version:       V7.0
+    > Version:       V7.1
     > Author:        Ming
     > Mail:          
     > Created Time:  June 6th, 2024
@@ -12,7 +12,7 @@ import argparse
 
 def get_version():
     """Version Display"""
-    return '7.0'
+    return '7.1'
 
 def check_file_path(filepath):
     """
@@ -205,10 +205,10 @@ def calcAvg(type, count_time):
 
     with open(log_path, 'a', encoding='utf-8') as file:
         file.write(type               +   " Statistcs: \t"    +   file_name   +   "\n")
-        file.write('\tConverged: \t'  +   str(count_time)     +   "times\n")
-        file.write("\tMin: \t\t"      +   format(min, '.2f')  +   "s\n")
-        file.write("\tMax: \t\t"      +   format(max, '.2f')  +   "s\n")
-        file.write("\tAverage: \t"    +   format(avg, '.2f')  +   "s\n")
+        file.write('\tConverged: \t'  +   str(count_time)     +   "\ttimes\n")
+        file.write("\tMin: \t\t"      +   format(min, '.2f')  +   "\ts\n")
+        file.write("\tMax: \t\t"      +   format(max, '.2f')  +   "\ts\n")
+        file.write("\tAverage: \t"    +   format(avg, '.2f')  +   "\ts\n")
         file.write("\n")
 
     print(type, " Statistcs: \t", file_name, "\n",
@@ -244,4 +244,4 @@ if __name__ == '__main__':
 
     calcAvg('Float', float_count)
 
-    calcAvg('Fixed', float_count)
+    calcAvg('Fixed', fixed_count)
